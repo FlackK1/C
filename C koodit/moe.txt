@@ -1,0 +1,24 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+double tulot;
+double asuminen;
+double ruoka;
+double vapaaaika;
+double muu;
+
+printf("Anna tulosi: ");
+scanf("%1f", &tulot);
+printf("\nAnna asumisen kulut: ");
+scanf("%1f", &asuminen);
+printf("\nAnna ruokaan menevät kulut: ");
+scanf("%1f", &ruoka);
+printf("\nAnna vapaan-aikaan menevät kulut: ");
+scanf("%1f", vapaaaika);
+printf("\nAnna muuhun menevät kulut: ");
+scanf("%1f", muu);
+
+
+    return 0;
+}

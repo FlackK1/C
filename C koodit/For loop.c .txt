@@ -1,0 +1,26 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+//Ensimmäinen huone
+int guess;
+printf("ohjeet pelin pelaamiseen.\n");
+printf("Kolme huonetta, kolme tapaa päästä ulos.\n");
+for (int i = 0; i < 3; i++) 
+    guess = 0;
+    printf("Arvaa numero 1-10 välistä: ");
+    scanf("%d", &guess);
+    if (guess < 1 || guess > 10) 
+        printf("Numeron täytyy olla 1-10 väliltä\n");
+        i--;
+        continue;
+        
+        else if (guess == 7) 
+            printf("Hienoa! Selvisit enmissäisestä huoneest.\);
+            break ;
+            
+            else if (i == 2) 
+            printf("Hävisit pelin\n");
+            return 1;
+return 0;
+}
